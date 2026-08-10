@@ -5,7 +5,7 @@
 </p>
 
 <h3 align="center">
-  A modern real-time weather application with a beautiful liquid glass interface.
+  A modern real-time weather application.
 </h3>
 
 <p align="center">
