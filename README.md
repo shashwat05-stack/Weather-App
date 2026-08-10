@@ -34,7 +34,7 @@
 
 **Live Demo:** `(https://shashwatstack-weather-app.netlify.app/)`
 
-> Replace `PASTE_YOUR_LIVE_LINK_HERE` with your deployed website URL.
+> Replace https://shashwatstack-weather-app.netlify.app/ with your deployed website URL.
 
 ---
 
