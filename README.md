@@ -1,16 +1,91 @@
-# React + Vite
+# 🌤️ Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive weather application built with **React + Vite** that provides real-time weather information with a beautiful **liquid glass / glassmorphism UI** inspired by modern weather applications.
 
-Currently, two official plugins are available:
+Search for any city and get current weather conditions, hourly forecasts, daily forecasts, weather details, sunrise/sunset information, and dynamic weather-based backgrounds.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🌡️ Real-time temperature
+- 🌤️ Dynamic weather icons
+- 🌧️ Rain, snow, clouds & thunderstorm detection
+- 🌙 Automatic day/night detection
+- 🎨 Dynamic weather-based backgrounds
+- 🧊 Liquid glass / glassmorphism UI
+- 🔍 City weather search
+- 🕐 Hourly forecast
+- 📅 5-day forecast
+- 💧 Humidity information
+- 💨 Wind speed
+- 👁️ Visibility
+- 🎚️ Atmospheric pressure
+- 🌅 Sunrise time
+- 🌇 Sunset time
+- 📱 Fully responsive design
+- ✨ Smooth animations and transitions
+- ⚡ Fast performance with Vite
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🖼️ Preview
+
+### Main Weather Dashboard
+
+The application provides a clean weather dashboard with:
+
+- Current temperature
+- Weather condition
+- Feels-like temperature
+- High / low temperature
+- Hourly forecast
+- Weather statistics
+- Sunrise and sunset
+- 5-day forecast
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| React | Frontend UI |
+| Vite | Development & build tool |
+| JavaScript | Application logic |
+| Tailwind CSS | Utility styling |
+| CSS | Glassmorphism & animations |
+| Lucide React | Weather & UI icons |
+| OpenWeather API | Real-time weather data |
+
+---
+
+## 📁 Project Structure
+
+```text
+weather-app/
+│
+├── public/
+│   └── weather-icon.svg
+│
+├── src/
+│   │
+│   ├── services/
+│   │   └── weatherApi.js
+│   │
+│   ├── utils/
+│   │   ├── weatherIcons.js
+│   │   └── weatherTheme.js
+│   │
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+│
+├── .env
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── README.md
