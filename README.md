@@ -32,9 +32,7 @@
 
 ### 🔗 Live Website
 
-**Live Demo:** `(https://shashwatstack-weather-app.netlify.app/)`
-
-> Replace https://shashwatstack-weather-app.netlify.app/ with your deployed website URL.
+**Live Demo:** https://shashwatstack-weather-app.netlify.app/
 
 ---
 
